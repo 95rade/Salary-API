@@ -26,6 +26,7 @@ Note: Every time db is updated you have to re-import it into sqlite3:
 
 ```
 pip install -r requirements.txt
+pip freeze
 ```
 
 ## run
