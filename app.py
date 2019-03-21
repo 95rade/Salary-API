@@ -40,4 +40,4 @@ api.add_resource(Departmental_Salary, '/dept/<string:department_name>')  # bind 
 api.add_resource(multiply, '/multiply/<int:number>')  # whatever the number is, multiply by 2
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True,host='0.0.0.0',port=5555)
